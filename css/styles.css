@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+/* ==========
+CONTAINER
+========== */
+.container {
+    background-color: #FFFAFB;
+    border-radius: 7px;
+    padding: 1.5em;
+    width: 450px;
+}
+.container > * {
+    padding: 1em;
+}
+.title {
+    text-align: center;
+    color: #033F63;
+}
+.username, .password, .forgot-password {
+    padding-bottom: 1em;
+    border-radius: 2px solid blue;
+}
+/* ==========
+FORM 
+========== */
+.username > *,
+.password > * {
+    display: flex;
+    flex-direction: column;
+    padding: .2em;
+}
+
+.username label,
+.password label {
+    color: #033F63;
+    font-size: .7em;
+}
+
+.username input,
+.password input {
+    border:none;
+    border-bottom: 2px solid #E9E9E9;
+    box-shadow: none;
+    height: 40px;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+.username input:focus,
+.password input:focus {
+    border-bottom: 2px solid #C0C0C0;
+    outline: none;
+}
+.forgot-password {
+    font-size: .6em;
+    text-align: center;
+}
+.forgot-password a {
+    text-decoration: none;
+}
+
+/* ==========
+BUTTON
+========== */
+.submitButton input {
+    background-color: #1F92EE;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+}
