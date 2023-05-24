@@ -1,0 +1,26 @@
+# Archivos generados por el sistema
+Thumbs.db
+.DS_Store
+
+# Carpeta de dependencias o módulos
+node_modules/
+
+# Archivos de compilación
+*.log
+*.min.css
+*.min.js
+
+# Carpeta de compilación
+dist/
+
+# Ambiente de desarrollo
+.env
+
+# Archivos de respaldo o temporales
+*.bak
+*.swp
+*~
+
+# Otros archivos generados
+npm-debug.log
+yarn-error.log
