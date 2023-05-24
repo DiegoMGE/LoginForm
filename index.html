@@ -10,14 +10,15 @@
 <body>
     <main class="container">
         <div class="title">Login Form</div>
-        <form action="#">
+        <form action="#" id="myForm">
             <div class="username">
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="username" >
             </div>
             <div class="password">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+                <input pattern="[a-zA-Z0-9]{8,}" type="password" id="password" name="password" >
+                <p class="input-hint">Must be at least 12 characters</p>
             </div>
             <div id="forgot-password" class="forgot-password"><a href="#">Forgot Password?</a></div>
             <div class="submitButton">

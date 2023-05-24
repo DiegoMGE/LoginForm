@@ -64,6 +64,11 @@ FORM
     border-bottom: 2px solid #C0C0C0;
     outline: none;
 }
+.input-hint {
+    color: #8D99AE;
+    font-size: .6em;
+    margin-top: 10px;
+}
 .forgot-password {
     font-size: .6em;
     text-align: center;
@@ -73,7 +78,7 @@ FORM
 }
 
 /* ==========
-BUTTON
+SUBMIT BUTTON
 ========== */
 .submitButton input {
     background-color: #1F92EE;
@@ -81,6 +86,7 @@ BUTTON
     border-radius: 5px;
     color: #FFF;
     cursor: pointer;
+    font-size: .7em;
     height: 50px;
     width: 100%;
 }
